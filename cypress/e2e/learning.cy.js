@@ -16,6 +16,7 @@ describe('Account Registration', () => {
    //cy.wait(3000);
    cy.get('.inventory_item').eq(2).find('button').click();
    cy.wait(3000);
+   cy.wait(3000);
    cy.get('.inventory_item').eq(5).find('button').click();
    cy.wait(3000);
    cy.get('[data-test="shopping-cart-link"]').should('have.text', '4')
